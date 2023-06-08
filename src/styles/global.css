@@ -3,3 +3,16 @@ body {
   font-weight: 500;
   font-size: 15px;
 }
+
+.button {
+  background-color: #39495c;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.nav-bar {
+  background: linear-gradient(-50deg, #010801, #0d0d60);
+  height: 60px;
+  margin-bottom: 25px;
+}
