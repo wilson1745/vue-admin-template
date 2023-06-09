@@ -99,6 +99,17 @@ export default new Router({
       }
     },
     {
+      path: "/studyingvue",
+      name: "Studying Vue",
+      component: Media,
+      meta: {
+        breadcrumb: [
+          { name: "dashboard", href: "Dashboard" },
+          { name: "studyingvue" }
+        ]
+      }
+    },
+    {
       path: "/login",
       name: "Login",
       component: Login,

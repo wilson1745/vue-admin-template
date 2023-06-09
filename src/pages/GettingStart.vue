@@ -4,6 +4,13 @@
     <h1>Relecloud Galaxy Tours</h1>
 
     <div>
+      <div id="demo">
+        <h1>{{ message }}</h1>
+        <h1>{{ message }}</h1>
+        <h1>{{ message }}</h1>
+        <input v-model="message" />
+      </div>
+
       <h2>{{ cruise.name }}</h2>
       <div>{{ cruise.description }}</div>
       <hr />
@@ -31,6 +38,7 @@ export default {
   name: "Host",
   data() {
     return {
+      message: "Hello Vue!",
       cruise: {
         name: "Cruise to the moon",
         description:

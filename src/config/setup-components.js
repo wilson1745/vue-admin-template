@@ -12,6 +12,7 @@ import UserTreeView from "../components/UserTreeView.vue";
 import Stepper from "../components/Stepper.vue";
 import BookingList from "../components/BookingList.vue";
 import BookingForm from '../components/BookingForm.vue';
+import CustomListGroup from '../components/CustomListGroup.vue';
 
 import LocationStatistic from "../components/statistics/LocationStatistic.vue";
 import SiteViewStatistic from "../components/statistics/SiteViewStatistic.vue";
@@ -30,6 +31,7 @@ function setupComponents(Vue) {
   Vue.component("stepper", Stepper);
   Vue.component("booking-list", BookingList);
   Vue.component("booking-form", BookingForm);
+  Vue.component("CustomListGroup", CustomListGroup);
 
   Vue.component("location-statistic", LocationStatistic);
   Vue.component("site-view-statistic", SiteViewStatistic);
